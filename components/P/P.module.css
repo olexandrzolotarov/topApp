@@ -1,0 +1,22 @@
+.p {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 10px;
+}
+
+.small {
+    font-size: var(--size-s);
+    line-height: 24px;
+}
+
+.middle {
+    font-size: var(--size-m);
+    line-height: 24px;
+}
+
+.large {
+    font-size: var(--size-l);
+    line-height: 29px;
+}

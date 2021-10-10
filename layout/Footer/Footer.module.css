@@ -1,0 +1,38 @@
+.footer__body {
+    background: var(--primary);
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+
+    min-height: 72px;
+
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    align-content: center;
+    align-items: center;
+}
+
+.footer__copy {
+    padding: 15px 40px 15px 32px;
+    text-align: center;
+}
+.footer__terms {
+    padding: 4px 40px 4px 5px;
+}
+.footer__terms:hover {
+    text-decoration: underline;
+}
+.footer__policy {
+    padding: 4px 40px 4px 5px;
+}
+.footer__policy:hover {
+    text-decoration: underline;
+}
+
+@media(max-width: 765px) {
+    .footer__body {
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+}
